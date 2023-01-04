@@ -11,6 +11,7 @@ header{
   background-color: white;
   height: 5rem;
   align-items: center;
+  width: 100%;
 }
 
 .logo{
@@ -109,14 +110,14 @@ label span{
 
 .sneaker1{
   position: absolute;
-  width: 20rem;
+  width: 25%;
   top: 8rem;
   right: 25rem;
 }
 
 .sneaker2{
   position: absolute;
-  width: 20rem;
+  width: 25%;
   top: 16rem;
   right:7.2rem;
 }
@@ -189,7 +190,11 @@ footer ul li{
 }
 
 .divider-1 {
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
   height: 1px;
+  width: 90%;
   background: linear-gradient(
       270deg,
   white,
@@ -198,6 +203,7 @@ footer ul li{
 
   h3 .baseboard{
     justify-content: center;align-items: center;
+    color: white;
 
   }
 
