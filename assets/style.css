@@ -122,10 +122,13 @@ label span{
 }
 
 footer{
-  background-color: black;
+  background-color: black;    
+}
+
+footer .footer{
   color: white;
   display: flex;
-  padding:4.5rem 6.25rem;   
+  padding:4.5rem 6.25rem;
 }
 
 footer .about{
@@ -184,4 +187,17 @@ footer ul li{
 .contact p{
   padding-top: 1rem;
 }
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+      270deg,
+  white,
+  #1F1F1F);
+  }
+
+  h3 .baseboard{
+    justify-content: center;align-items: center;
+
+  }
 
